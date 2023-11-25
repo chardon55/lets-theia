@@ -87,7 +87,6 @@
     "@theia/vsx-registry": "1.43.1",
     "@theia/workspace": "1.43.1",
     "fs-extra": "^9.0.1",
-    "blueprint-updater-ext": "1.43.1",
     "blueprint-product-ext": "1.43.1",
     "blueprint-launcher-ext": "1.43.1"
   },
