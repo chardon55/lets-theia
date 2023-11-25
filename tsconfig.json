@@ -13,9 +13,6 @@
       "path": "theia-extensions/product"
     },
     {
-      "path": "theia-extensions/updater"
-    },
-    {
       "path": "applications/electron"
     },
     {
