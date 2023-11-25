@@ -103,7 +103,7 @@ export class TheiaLauncherServiceEndpoint implements BackendApplicationContribut
             if (!targetExists) {
                 throw new Error('Could not find application to launch');
             }
-            sudo.exec(command, { name: 'Let\'s Theia' });
+            sudo.exec(command, { name: 'Theia Blueprint' });
         }
 
         const storageFile = await this.getStorageFilePath();

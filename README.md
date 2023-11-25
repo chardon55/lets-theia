@@ -2,7 +2,7 @@
 
 Your startup Eclipse Theia IDE distribution using Electron.
 
-Let's Theia follows most of the instruction of the Theia Blueprint template
+Let's Theia follows most of the instruction and implementation of the Theia Blueprint template
 to emit a usable Eclipse Theia IDE.
 
 > This project is **NOT** affiliated nor part of the Eclipse Foundation or Eclipse Theia project.
