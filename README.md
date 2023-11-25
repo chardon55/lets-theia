@@ -13,7 +13,8 @@ The relationship between Eclipse Theia and Let's Theia
 is basically like Code-OSS and VSCodium.
 
 Furthermore, Eclipse Theia is an IDE framework based on
-Code-OSS, but "not a production-ready IDE". Let's Theia
+Code-OSS, also there is already a thing named
+Theia Blueprint but it is "not a production-ready IDE". Let's Theia
 therefore comes to make it as if it is an independent IDE.
 
 ## License
