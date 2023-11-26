@@ -1,0 +1,19 @@
+[Desktop Entry]
+Name=Let's Theia
+Comment=Eclipse Theia distribution
+GenericName=Text Editor
+Exec=/usr/bin/lets-theia --unity-launch %F
+Icon=theia
+Type=Application
+StartupNotify=false
+StartupWMClass=LetsTheia
+Categories=Utility;Development;IDE;
+MimeType=text/plain;inode/directory;
+Actions=new-empty-window;
+Keywords=vscode,theia;
+
+[Desktop Action new-empty-window]
+Name=New Empty Window
+Exec=/usr/bin/lets-theia --new-window %F
+Icon=theia
+

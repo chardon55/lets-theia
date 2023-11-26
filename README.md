@@ -6,6 +6,8 @@ Let's Theia follows most of the instruction and
 implementation of the [Theia Blueprint](https://github.com/eclipse-theia/theia-blueprint) template
 to emit a usable Eclipse Theia IDE.
 
+**Let's Theia is currently under early development. Use it at your own risk.**
+
 > This project is **NOT** affiliated nor part of the Eclipse Foundation or Eclipse Theia project.
 
 ## Eclipse Theia™️ vs Let's Theia?
