@@ -8,9 +8,7 @@ to emit a usable Eclipse Theia IDE.
 
 **Let's Theia is currently under early development. Use it at your own risk.**
 
-> This project is **NOT** affiliated nor part of the Eclipse Foundation or Eclipse Theia project.
-
-## Eclipse Theia™️ vs Let's Theia?
+## Eclipse Theia™ vs Let's Theia?
 
 The relationship between Eclipse Theia and Let's Theia
 is basically like Code-OSS and VSCodium.
@@ -23,3 +21,9 @@ Let's Theia therefore comes to make it as if it is an complete IDE.
 ## License
 
 Eclipse Public License v2.0
+
+> This project is **NOT** affiliated nor part of the Eclipse Foundation or Eclipse Theia project.
+>
+> Eclipse Theia™ is a trademark of the Eclipse Foundation.
+>
+> The copyright of Eclipse Theia logo and Theia Blueprint logo are reserved by the Eclipse Foundation.
