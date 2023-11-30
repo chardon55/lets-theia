@@ -18,6 +18,7 @@ ICON_DEST = /usr/share/icons/hicolor/512x512/apps/theia.png
 .PHONY: all-preview linux-install linux-uninstall
 
 all-preview:
+    @yarn download:plugins
 	@yarn build
 	@yarn package:applications:preview
 
