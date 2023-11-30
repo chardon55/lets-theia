@@ -47,9 +47,8 @@ mac:
 linux:
   icon: resources/icons/LinuxLauncherIcon/512-512.png
   category: Development
-  vendor: Eclipse Foundation, Inc
+  vendor: Charles Dong
   target:
-    - deb
     - AppImage
   # publish:
   #   provider: generic

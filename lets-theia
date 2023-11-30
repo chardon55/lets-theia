@@ -13,4 +13,4 @@ if [[ -f $XDG_CONFIG_HOME/codium-flags.conf ]]; then
 fi
 
 # Launch
-exec /opt/lets-theia/lets-theia-app "$@" "${CODE_USER_FLAGS[@]}"
+exec /opt/LetsTheia.AppImage "$@" "${CODE_USER_FLAGS[@]}"
