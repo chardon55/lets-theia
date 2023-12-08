@@ -55,15 +55,6 @@ export class TheiaBlueprintGettingStartedWidget extends GettingStartedWidget {
 
     protected render(): React.ReactNode {
         return <div className='gs-container'>
-            <div className='gs-content-container'>
-                <div className='gs-float'>
-                    <div className='gs-logo'>
-                    </div>
-                    {this.renderActions()}
-                </div>
-                {this.renderHeader()}
-                <hr className='gs-hr' />
-            </div>
             <div className='gs-preference-container'>
                 {this.renderPreferences()}
             </div>
@@ -93,33 +84,5 @@ export class TheiaBlueprintGettingStartedWidget extends GettingStartedWidget {
                 </div>
             </div>
         </div>;
-    }
-
-    protected renderHeader(): React.ReactNode {
-        return (
-            <div className='gs-header'>
-                <h1>Let's Theia</h1>
-                <span>An Eclipse Theia distribution</span>
-                {this.renderVersion()}
-            </div>
-        );
-    }
-
-    protected renderVersion(): React.ReactNode {
-        return (
-            <div>
-                <p className='gs-sub-header' >
-                    {`Version: ${this.applicationInfo?.version ?? 'Unknown'}`}
-                </p>
-
-                <p className='gs-sub-header'>
-                    {`Eclipse Theia Version: ${this.applicationInfo?.version ?? 'Unknown'}`}
-                </p>
-
-                <p className='gs-sub-header' >
-                    {'VS Code API Version: ' + this.vscodeApiVersion}
-                </p>
-            </div>
-        );
     }
 }

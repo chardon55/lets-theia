@@ -50,8 +50,11 @@ export class TheiaBlueprintAboutDialog extends AboutDialog {
     }
 
     protected renderContent(): React.ReactNode {
-        return <div className='ad-container'></div>;
-
+        return (
+            <div className='ad-container'>
+                {this.renderTitle()}
+            </div>
+        )
     }
 
     protected renderTitle(): React.ReactNode {
